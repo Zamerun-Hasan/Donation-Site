@@ -1,0 +1,179 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bitter', serif;
+
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.image {
+    background-image: url(images/donation2.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    height: 400px;
+
+}
+
+.container {
+    text-align: center;
+    padding-top: 120px;
+    font-weight: 600;
+
+}
+
+.container p {
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.container h1 {
+    color: tomato;
+}
+
+.home-btn button {
+    margin-top: 40px;
+    width: 15%;
+    height: 30px;
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+
+.donate-today {
+    text-align: center;
+    margin-top: 70px;
+    padding: 30px;
+
+}
+
+.donate-taka {
+    border: 15px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.other-amount {
+    margin-top: 50px;
+}
+
+.other-amount h4 {
+    text-decoration: underline;
+    color: gray;
+}
+
+#taka {
+    box-sizing: border-box;
+    width: 15%;
+    height: 50%;
+    padding: 5px;
+    margin: 0;
+    border: 2px solid tomato;
+}
+
+.our-plan {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.food-for-family {
+    display: flex;
+    margin-top: 60px;
+    padding: 0px 50px 75px;
+    justify-content: space-around;
+
+
+}
+
+.Food {
+    background-color: bisque;
+    padding: 10px;
+    margin-right: 14px;
+}
+
+.shelter {
+    background-color: bisque;
+    padding: 10px;
+    margin-right: 14px;
+}
+
+.frame {
+    background-color: bisque;
+    padding: 10px;
+    margin-right: 14px;
+}
+
+
+.people-container {
+    color: black;
+    display: flex;
+    background-color: bisque;
+    padding: 20px;
+}
+
+.help-man img {
+    width: 400px;
+    height: 300px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.work {
+    text-align: center;
+}
+
+.list {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+
+.address {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.subs {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 25%;
+    padding: 50px 50px 50px;
+    background-color: blanchedalmond;
+    width: 40%;
+    height: 30px;
+    margin-bottom: 50px;
+
+}
+
+.subs h5 {
+    padding: 5px;
+    font-size: 18px;
+    background-color: tomato;
+    width: 30%;
+    height: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 70px;
+    background-color: darkgrey;
+    padding: 25px;
+}
